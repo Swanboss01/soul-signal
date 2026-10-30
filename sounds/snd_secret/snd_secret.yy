@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_secret",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":3,
+  "compressionQuality":8,
+  "conversionMode":0,
+  "duration":11.989841,
+  "exportDir":"",
+  "name":"snd_secret",
+  "parent":{
+    "name":"SOULSIGNAL",
+    "path":"SOULSIGNAL.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_secret.ogg",
+  "volume":1.0,
+}

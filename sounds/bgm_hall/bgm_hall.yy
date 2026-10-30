@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"bgm_hall",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":3,
+  "compressionQuality":8,
+  "conversionMode":0,
+  "duration":24.0,
+  "exportDir":"",
+  "name":"bgm_hall",
+  "parent":{
+    "name":"SOULSIGNAL",
+    "path":"SOULSIGNAL.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_hall.ogg",
+  "volume":1.0,
+}
