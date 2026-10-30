@@ -22,6 +22,21 @@ if (man_state == 1) {
     exit;
 }
 
+// the "save?" question (YES / NO). It blocks everything else while it is open.
+if (ask) {
+    if (keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("A")) || keyboard_check_pressed(ord("D"))) ask_sel = 1 - ask_sel;
+    if (keyboard_check_pressed(ord("X"))) {
+        ask = false;                                        // X = no
+    } else if (_ok) {
+        ask = false;
+        if (ask_sel == 0) {
+            save_game();
+            say(["FILE " + string(global.chapter) + "-" + string(global.slot) + " SAVED.", "THE SIGNAL IS CLEAR AGAIN."], "", "");
+        }
+    }
+    exit;
+}
+
 // a dialog is open: it blocks everything else
 if (array_length(dlg) > 0) {
     var _cur = dlg[dline];
